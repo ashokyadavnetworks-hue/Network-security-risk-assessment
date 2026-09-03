@@ -1,1 +1,23 @@
-
+                    INTERNET
+                       │
+                       ▼
+              ┌─────────────────┐
+              │     FIREWALL    │
+              │ Default Deny    │
+              │ Traffic Rules   │
+              └────────┬────────┘
+                       │
+                 ┌─────┴─────┐
+                 ▼           ▼
+             Web Tier     User Network
+                             │
+                            MFA
+                             │
+                            RBAC
+                             │
+                             ▼
+                     ┌──────────────┐
+                     │   Database   │
+                     │ Restricted   │
+                     │ Access       │
+                     └──────────────┘
