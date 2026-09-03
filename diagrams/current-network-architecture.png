@@ -1,1 +1,15 @@
-
+                    INTERNET
+                       │
+                       ▼
+              ┌─────────────────┐
+              │    FIREWALL     │
+              │ Weak / No Rules │
+              └────────┬────────┘
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+       Users       Web Server    Database
+          │                         │
+    Shared Password          Default Password
+          │
+       No MFA
