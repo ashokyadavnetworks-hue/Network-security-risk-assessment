@@ -1,1 +1,5 @@
-
+Risk ID,Vulnerability,Likelihood,Impact,Risk Level,Priority,Recommended Control
+R-01,Employees share passwords,High,High,High,P1,Unique credentials + MFA + RBAC
+R-02,Default database administrator password,High,Critical,Critical,P0,Replace credentials + restrict database access
+R-03,Firewall lacks inbound/outbound filtering,High,Critical,Critical,P0,Default-deny firewall policy + logging
+R-04,MFA not implemented,High,High,High,P1,MFA for employees and privileged accounts
